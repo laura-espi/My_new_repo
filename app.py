@@ -2,8 +2,6 @@ import streamlit as st
 
 st.header('Lanzar una moneda xd')
 
-st.write('Esta aplicación aún no es funcional. En construcción.')
-
 number_of_trials = st.slider('¿Número de intentos?', 1, 1000, 10)
 start_button = st.button('Ejecutar')
 
